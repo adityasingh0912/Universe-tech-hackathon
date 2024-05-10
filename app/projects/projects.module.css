@@ -1,0 +1,98 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.main_box{
+    position: absolute;
+    width: 90vw;
+    height: 80vh;
+    top: 15vh;
+    background:black;
+    z-index: 999;
+    left: 5vw;
+    border-radius: 10px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 0px 30px -5px;
+}
+.main_box h3{
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 2%;
+}
+.filter{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.filter input{
+    width: 60%;
+    height: 50px;
+    border: 1px solid #60ccf2;
+    background: black;
+    outline: none;
+    font-size: 1.3vw;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.filter input::placeholder{
+    color: rgba(255, 255, 255, 0.496);
+}
+.filter select{
+    width: 20%;
+    height: 50px;
+    border: 1px solid #60ccf2;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1vw;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5%;
+}
+.projects{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: auto;
+}
+.project{
+    width: 250px;
+    height: auto;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    padding: 5% 3%; 
+}
+.project h4{
+    font-size: 1.3vw;
+}
+.project p{
+    font-size: .9vw;
+    margin-top: 5%;
+}
+.project button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #60ccf2;
+    color: #60ccf2;
+    border-radius: 10px;
+    margin-top: 7%;
+    cursor: pointer;
+}

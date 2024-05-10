@@ -1,0 +1,77 @@
+.main{
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.main h3{
+  font-size: 2vw;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.container {
+    width: 60vw;
+    background: black;
+    border-radius: 40px;
+    padding-bottom: 5%;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 0px 30px -10px;
+    position: relative;
+  }
+ .container div{
+  width: 90%;
+  margin-left: 5%;
+  height: 50px;
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+ }
+ .container label{
+  width: 20%;
+  color: white;
+  text-align: center;
+ }
+ .container input{
+  width: 60%;
+  height: 40px;
+  padding-left: 2%;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #60ccf2;
+  color: white;
+ }
+ .container input::placeholder{
+  color: rgba(255, 255, 255, 0.497);
+ }
+ .container textarea{
+  width: 70%;
+  height: 80px;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #60ccf2;
+  color: white;
+  padding: 2%;
+ }
+ .container textarea::placeholder{
+  color: rgba(255, 255, 255, 0.497);
+ }
+ .container button{
+  width: 20%;
+  height: 40px;
+  background: transparent;
+  color: #60ccf2;
+  border: 1px solid #60ccf2;
+  border-radius: 5px;
+  font-size: 1vw;
+  margin-top: 5%;
+  margin-left: 40%;
+  cursor: pointer;
+ } 
+ 

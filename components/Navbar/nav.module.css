@@ -1,0 +1,51 @@
+.nav{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    top: 0;
+    z-index: 9998;
+    font-family: 'JetBrains Mono';
+    background: black;
+}
+
+
+.nav img{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+.nav div{
+    height: 200%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+.nav div a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1vw;
+}
+.nav .signin{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #60ccf2;
+    color: #60ccf2;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.profile{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.main{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  z-index: 99999;
+}
+.main h3{
+  font-size: 2vw;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.container {
+    width: 60vw;
+    background: black;
+    border-radius: 40px;
+    padding-bottom: 5%;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 0px 30px -10px;
+    position: relative;
+  }
+ .container div{
+  width: 90%;
+  margin-left: 5%;
+  height: 50px;
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+ }
+ .container label{
+  width: 30%;
+  color: white;
+  text-align: left;
+ }
+ .container input{
+  width: 60%;
+  height: 40px;
+  padding-left: 2%;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #60ccf2;
+  color: white;
+ }
+ .container input::placeholder{
+  color: rgba(255, 255, 255, 0.497);
+ }
+ .container textarea{
+  width: 70%;
+  height: 80px;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #60ccf2;
+  color: white;
+  padding: 2%;
+ }
+ .container textarea::placeholder{
+  color: rgba(255, 255, 255, 0.497);
+ }
+ .container button{
+  width: 20%;
+  height: 40px;
+  background: transparent;
+  color: #60ccf2;
+  border: 1px solid #60ccf2;
+  border-radius: 5px;
+  font-size: 1vw;
+  margin-top: 5%;
+  margin-left: 40%;
+  cursor: pointer;
+ } 
+ .container select{
+  width: 70%;
+  border:  1px solid white;
+  color: white;
+  background: white;
+ }
+ .developers_box{
+  width: 100vw;
+  height: 60vh;
+  display: grid;
+  background: black;
+  border-radius: 40px;
+  padding: 5%;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 0px 30px -10px;
+ }
+ .developer{
+  position: relative;
+  max-width: 20vw;
+  height: auto;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+ }

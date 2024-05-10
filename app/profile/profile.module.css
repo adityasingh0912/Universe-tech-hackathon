@@ -1,0 +1,197 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.profile_box{
+    position: absolute;
+    width: 70vw;
+    height: 80vh;
+    top: 15vh;
+    background:black;
+    z-index: 999;
+    left: 15vw;
+    border-radius: 10px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 0px 30px -5px;
+
+}
+.basic_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.basic_info button{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: #60ccf2;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.basic_info img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.info_img_username{
+    display: flex;
+    flex-direction: column;
+}
+.info_img_username input{
+    height: 40px;
+    background: transparent;
+    border-radius: 5px;
+    border: none; 
+    padding-left: 2%;
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    text-align: center;
+}
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.info input{
+    height: 40px;
+    background: transparent;
+    border-radius: 5px;
+    border: none; 
+    padding-left: 2%;
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 2%;
+}
+.info input[type="text"]{
+    font-size: 1.5vw;
+}
+.info textarea{
+    height: 100px;
+    background: transparent;
+    border:none;
+    padding-left: 2%;
+    color: white;
+    font-size: .9vw;
+    margin-top: 2%;
+}
+.technical_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lang{
+    width: 30%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lang div{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.lang img{
+    width: 40px;
+    height: 40px;
+    margin-right: 2%;
+}
+.lang label{
+    color: white;
+}
+.level_info{
+    width: 20%;
+
+    height: auto;
+}
+.level_info div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 2%;
+}
+.level_info img{
+    width: 50px;
+    height: 50px;
+}
+.level_info label{
+    width: auto;
+    color: #60ccf2;
+    font-size: 1.2vw;
+    text-align: left;
+}
+.level_info p{
+    color: white;
+    font-size: 1vw;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+.level_info button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+.projects{
+    position: relative;
+    width: 40%;
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow-y: scroll;
+    height: auto;
+    color: white;
+
+}
+.projects::-webkit-scrollbar {
+    width: 5px;
+  }
+  .projects::-webkit-scrollbar-thumb {
+    background: #60ccf2;
+    border-radius: 10px;
+  }
+.project{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5%;
+    margin-top: 2%;
+
+}
+.project div{
+    display: flex;
+    margin-top: 2%;
+}
+.project label{
+    width: 40%;
+}
+.project p{
+    width: 60%;
+}

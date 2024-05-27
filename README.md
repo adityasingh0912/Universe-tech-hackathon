@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Universe Tech
+## Introduction
+- Universe Tech is a dynamic platform designed to facilitate collaboration, learning, and innovation within the technology community. It connects students, professionals, and enthusiasts, enabling them to find suitable collaborators for hackathons, coding projects, and other collaborative endeavors. Universe Tech leverages advanced matching algorithms to recommend compatible collaborators based on users' skills, interests, and project requirements.
 
-## Getting Started
+## Features
+- Advanced Matching Algorithms: Intelligent algorithms that analyze user profiles and project requirements to suggest the best collaborators.
+- Project Management Tools: Comprehensive tools for managing projects, tasks, and deadlines.
+- Real-Time Communication: Integrated messaging and collaboration tools for seamless team communication.
+- Version Control Integration: Support for popular version control systems like GitHub for effective code management.
+- Learning Resources: Access to tutorials, workshops, and educational content to enhance skills.
+- Community Engagement: Forums and discussion boards to connect with peers, share knowledge, and network.
+- Secure and Scalable Infrastructure: Built on AWS Cloud with KMS for secure data handling and scalability.
+### Getting Started
+### Prerequisites
+= Node.js/Next.js
+= npm 
 
-First, run the development server:
+1. Clone the Repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/your-username/universe-tech.git
+cd universe-tech
+```
+2. Install Dependencies
+```
+npm install -r requirements
+```
+3. Deployment
+```
+npm run dev
+```

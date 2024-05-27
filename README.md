@@ -12,13 +12,13 @@
 - Secure and Scalable Infrastructure: Built on AWS Cloud with KMS for secure data handling and scalability.
 ### Getting Started
 ### Prerequisites
-= Node.js/Next.js
-= npm 
+- Node.js/Next.js
+- npm 
 
 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/universe-tech.git
+https://github.com/adityasingh0912/Universe-tech-hackathon.git
 cd universe-tech
 ```
 2. Install Dependencies

@@ -13,7 +13,10 @@
 ### Getting Started
 ### Prerequisites
 - Node.js/Next.js
-- npm 
+- npm
+
+  WAtch Working Website :-
+  https://youtu.be/_VF6ZwCmyD0?si=i4BslU9DEoccgRPU
 
 1. Clone the Repository
 
